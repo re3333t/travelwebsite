@@ -1,0 +1,437 @@
+* {
+
+    box-sizing:border-box;
+    
+    }
+    
+    
+    
+    body {
+    
+    margin:0;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    
+    background:#eef7ff;
+    
+    color:#222;
+    
+    }
+    
+    
+    
+    header {
+    
+    background:#0077cc;
+    
+    color:white;
+    
+    text-align:center;
+    
+    padding:40px 20px;
+    
+    }
+    
+    
+    
+    header h1 {
+    
+    font-size:40px;
+    
+    margin:0;
+    
+    }
+    
+    
+    
+    header p {
+    
+    font-size:18px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    nav {
+    
+    background:#222;
+    
+    padding:15px;
+    
+    text-align:center;
+    
+    }
+    
+    
+    
+    nav a {
+    
+    color:white;
+    
+    text-decoration:none;
+    
+    margin:15px;
+    
+    font-size:18px;
+    
+    }
+    
+    
+    
+    nav a:hover {
+    
+    color:#00c3ff;
+    
+    }
+    
+    
+    
+    
+    
+    
+    section {
+    
+    padding:40px;
+    
+    text-align:center;
+    
+    }
+    
+    
+    
+    h2 {
+    
+    color:#0077cc;
+    
+    font-size:32px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    button {
+    
+    background:#0077cc;
+    
+    color:white;
+    
+    border:none;
+    
+    padding:12px 25px;
+    
+    border-radius:8px;
+    
+    font-size:16px;
+    
+    cursor:pointer;
+    
+    }
+    
+    
+    
+    button:hover {
+    
+    background:#005fa3;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* DESTINATION CARDS */
+    
+    
+    .destination-grid {
+    
+    display:grid;
+    
+    grid-template-columns:repeat(3,1fr);
+    
+    gap:20px;
+    
+    }
+    
+    
+    
+    .destination-card {
+    
+    background:white;
+    
+    padding:20px;
+    
+    border-radius:15px;
+    
+    box-shadow:0 5px 15px #ccc;
+    
+    }
+    
+    
+    
+    .destination-card img {
+    
+    width:100%;
+    
+    height:200px;
+    
+    object-fit:cover;
+    
+    border-radius:10px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* PHOTO GALLERY */
+    
+    
+    .gallery-grid {
+    
+    display:grid;
+    
+    grid-template-columns:repeat(4,1fr);
+    
+    gap:20px;
+    
+    }
+    
+    
+    
+    .photo-card {
+    
+    background:white;
+    
+    padding:15px;
+    
+    border-radius:12px;
+    
+    box-shadow:0 4px 10px #ccc;
+    
+    }
+    
+    
+    
+    .photo-card img {
+    
+    width:100%;
+    
+    height:200px;
+    
+    object-fit:cover;
+    
+    border-radius:10px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* VIDEO GALLERY */
+    
+    
+    .video-grid {
+    
+    display:grid;
+    
+    grid-template-columns:repeat(3,1fr);
+    
+    gap:25px;
+    
+    }
+    
+    
+    
+    .video-card {
+    
+    background:white;
+    
+    padding:20px;
+    
+    border-radius:15px;
+    
+    box-shadow:0 4px 12px #ccc;
+    
+    }
+    
+    
+    
+    .video-card video {
+    
+    width:100%;
+    
+    border-radius:10px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* CONTACT */
+    
+    
+    .contact form {
+    
+    background:white;
+    
+    padding:30px;
+    
+    max-width:500px;
+    
+    margin:auto;
+    
+    border-radius:15px;
+    
+    box-shadow:0 4px 15px #ccc;
+    
+    }
+    
+    
+    
+    input,
+    textarea {
+    
+    width:90%;
+    
+    padding:12px;
+    
+    border-radius:8px;
+    
+    border:1px solid #aaa;
+    
+    font-size:16px;
+    
+    }
+    
+    
+    
+    textarea {
+    
+    height:150px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    .contact-info {
+    
+    background:white;
+    
+    margin:30px;
+    
+    padding:20px;
+    
+    border-radius:15px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* FOOTER */
+    
+    
+    footer {
+    
+    background:#222;
+    
+    color:white;
+    
+    text-align:center;
+    
+    padding:25px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* MOBILE DESIGN */
+    
+    
+    @media(max-width:900px) {
+    
+    
+    .destination-grid {
+    
+    grid-template-columns:1fr;
+    
+    }
+    
+    
+    
+    .gallery-grid {
+    
+    grid-template-columns:repeat(2,1fr);
+    
+    }
+    
+    
+    
+    .video-grid {
+    
+    grid-template-columns:1fr;
+    
+    }
+    
+    
+    
+    nav a {
+    
+    display:block;
+    
+    margin:10px;
+    
+    }
+    
+    
+    }
+    
+    
+    
+    @media(max-width:500px) {
+    
+    
+    .gallery-grid {
+    
+    grid-template-columns:1fr;
+    
+    }
+    
+    
+    
+    header h1 {
+    
+    font-size:30px;
+    
+    }
+    
+    
+    }
