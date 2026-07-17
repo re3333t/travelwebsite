@@ -2,45 +2,16 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-
 <url>
-
-<loc>https://www.yourwebsite.com/</loc>
-
-<priority>1.0</priority>
-
+<loc>https://re40.netlify.app/</loc>
 </url>
 
-
-
 <url>
-
-<loc>https://www.yourwebsite.com/d.html</loc>
-
-<priority>0.9</priority>
-
+<loc>https://re40.netlify.app/gallery.html</loc>
 </url>
 
-
-
 <url>
-
-<loc>https://www.yourwebsite.com/gallery.html</loc>
-
-<priority>0.8</priority>
-
+<loc>https://re40.netlify.app/contact.html</loc>
 </url>
-
-
-
-<url>
-
-<loc>https://www.yourwebsite.com/Contact.html</loc>
-
-<priority>0.7</priority>
-
-</url>
-
-
 
 </urlset>
